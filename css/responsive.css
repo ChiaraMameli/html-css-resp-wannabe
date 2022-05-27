@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) {
+
+    .container {
+        max-width: 100vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        max-width: 100vw;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .lessons .col, .steps .col, .why-us .col-right {
+        width: 100vw;
+    }
+
+    div {
+        margin-bottom: 30px;
+    }
+
+    .row {
+        margin-bottom: -30px;
+    }
+
+    body {
+        background-color: #222222;
+    }
+
+    .col-left img {
+        max-width: 90vw;
+    }
+
+}
